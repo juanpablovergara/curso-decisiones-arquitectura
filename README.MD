@@ -1,16 +1,16 @@
-# Arquitectura como diseño de alto nivel vs diseño detallado.
+### Arquitectura como diseño de alto nivel vs diseño detallado.
 
 
-# Atributos de calidad y decisiones de arquitectura
+### Atributos de calidad y decisiones de arquitectura
 
-# Estilos y patrones arquitectónicos
-## Estilo arquitectónico REST
+#### Estilos y patrones arquitectónicos
+- Estilo arquitectónico REST
 
-### Tipos de hipermedia y sus diferentes capacidades
-### Definición
+Tipos de hipermedia y sus diferentes capacidades
+Definición
 
 
-## Patrón arquitectónico CQRS
+- Patrón arquitectónico CQRS
 
 Event Sourcing
 
