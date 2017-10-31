@@ -9,11 +9,18 @@
 	- ¿Uso de la memoria?
 	- ¿Uso del ancho de banda?
 	- ¿Uso del procesador?
+	- Tiempos de respuesta [Latencia]
 - Compatibility
 - Usability
 - **Reliability**
+	- Disponibilidad
+	- Consistencia
 - **Security**
+	- Autentiación
+	- Autorización
+	- Cifrado
 - Maintainability
+	- ¿Lenguaje de programación?
 - Portability
 
 #### Estilos y patrones arquitectónicos
@@ -33,8 +40,12 @@ Evolución del estilo
 - Fielding, 2017 https://static.googleusercontent.com/media/research.google.com/es//pubs/archive/46310.pdf --> El paper nuevo
 
 - Patrón arquitectónico CQRS
+	- Comandos
+	- Eventos
 
-Event Sourcing
+### Mensajería
 
-Message Broker
+- Message Broker
+- AMQP
+- RabbitMQ
 
