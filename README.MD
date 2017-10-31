@@ -6,6 +6,9 @@
 - ISO 9126 - ISO 25000
 - Functional Suitability
 - **Performance efficiency**
+	- ¿Uso de la memoria?
+	- ¿Uso del ancho de banda?
+	- ¿Uso del procesador?
 - Compatibility
 - Usability
 - **Reliability**
