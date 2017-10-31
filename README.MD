@@ -43,9 +43,31 @@ Evolución del estilo
 	- Comandos
 	- Eventos
 
-### Mensajería
+### Integración
 
-- Message Broker
+- DDD Estratégico
+	- Open Host Language (OHS)
+	- Published Language
+	- Anticorruption Layer (ACL)
+	- Customer Supplier
+	- Partnership
+	- Conformist
+	- Shared Kernel
+- EIP (Enterprise Integration Patterns). http://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html
+	- Estilos de integración
+	- Sistemas de mensajería
+	- Canales de mensajería
+	- Construcción de mensajes
+	- Enrutamiento de mensajes
+	- Transformación de mensajes
+	- Messaging endpoints
+- Message Broker. Patrón de EIP (Categoría Enrutamiento de mensajes)
+- Sistemas de colas
+	- Protocolos: TCP, AMQP 0.9, AMQP 1.X MQTT, STOMP
 - AMQP
+	- Exchanges: direct, topic, fanout
+	- Bindings: con o sin routing key
+	- Queues
+	- ACK
 - RabbitMQ
-
+	- Tolerancia a particiones de red
