@@ -1,7 +1,17 @@
-### Arquitectura como diseño de alto nivel vs diseño detallado.
+### Arquitectura vs diseño
+
 
 
 ### Atributos de calidad y decisiones de arquitectura
+- ISO 9126 - ISO 25000
+- Functional Suitability
+- *Performance efficiency*
+- Compatibility
+- Usability
+- *Reliability*
+- *Security*
+- Maintainability
+- Portability
 
 #### Estilos y patrones arquitectónicos
 - Estilo arquitectónico REST
