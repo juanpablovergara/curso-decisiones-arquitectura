@@ -5,7 +5,7 @@
 ### Atributos de calidad y decisiones de arquitectura
 - ISO 9126 - ISO 25000
 - Functional Suitability
-- *Performance efficiency*
+- **Performance efficiency**
 - Compatibility
 - Usability
 - *Reliability*
