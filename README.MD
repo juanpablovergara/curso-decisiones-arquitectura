@@ -10,8 +10,14 @@
 - Restricciones: Identificación de recursos. Manipulación de recursos con representaciones. Mensajes auto-descriptivos. HATEOAS.
 
 Tipos de hipermedia y sus diferentes capacidades (affordances)
-Definición
+- Una cosa es el formato y otra cosa es la estructura
+- Formatos: txt, json, xml, yml
+- ¿Qué puede representarse en esos formatos? 
+- Estructuras: Collection+json, HAL, Siren+json, JSON API, 
+- ¿Cómo medir la capacidad de hypermedia? El factor H: http://amundsen.com/hypermedia/hfactor/ 
 
+Evolución del estilo
+- Fielding, 2017 https://static.googleusercontent.com/media/research.google.com/es//pubs/archive/46310.pdf --> El paper nuevo
 
 - Patrón arquitectónico CQRS
 
