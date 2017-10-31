@@ -8,8 +8,8 @@
 - **Performance efficiency**
 - Compatibility
 - Usability
-- *Reliability*
-- *Security*
+- **Reliability**
+- **Security**
 - Maintainability
 - Portability
 
