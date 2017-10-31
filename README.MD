@@ -40,8 +40,14 @@ Evolución del estilo
 - Fielding, 2017 https://static.googleusercontent.com/media/research.google.com/es//pubs/archive/46310.pdf --> El paper nuevo
 
 - Patrón arquitectónico CQRS
-	- Comandos
-	- Eventos
+	- C -> Command -> Comando
+		- Orden al sistema
+		- Verbos en infinitivo (ar, er, ir)
+		- Ejecución sincrónica o asíncrona
+	- Q -> Query -> Consulta
+		- Consulta al estado del sistema
+		- Ejecucíón sincrónica casi siempre
+		- En algunas ocasiones ejecución asincrónica (consulta de payloads muy grandes o muy latentes -smell-)
 
 ### Integración
 
@@ -64,6 +70,7 @@ Evolución del estilo
 - Message Broker. Patrón de EIP (Categoría Enrutamiento de mensajes)
 - Sistemas de colas
 	- Protocolos: TCP, AMQP 0.9, AMQP 1.X MQTT, STOMP
+	- Productos: Apache Kafka, RabbitMQ, HornetMQ, IronMQ, ActiveMQ, HornetQ, Beanstalk, SQS, Celery, ...
 - AMQP
 	- Exchanges: direct, topic, fanout
 	- Bindings: con o sin routing key
