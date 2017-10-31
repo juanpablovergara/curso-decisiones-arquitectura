@@ -5,8 +5,12 @@
 
 #### Estilos y patrones arquitectónicos
 - Estilo arquitectónico REST
+Fielding, 2000 https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm --> El paper.
 
-Tipos de hipermedia y sus diferentes capacidades
+- Derivación: null. Client/Server. Stateless. Cache. Uniform Interface. Layered System. Code on Demand. 
+- Restricciones: Identificación de recursos. Manipulación de recursos con representaciones. Mensajes auto-descriptivos. HATEOAS.
+
+Tipos de hipermedia y sus diferentes capacidades (affordances)
 Definición
 
 
