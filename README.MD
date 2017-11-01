@@ -40,6 +40,7 @@ Evolución del estilo
 - Fielding, 2017 https://static.googleusercontent.com/media/research.google.com/es//pubs/archive/46310.pdf --> El paper nuevo
 
 - Patrón arquitectónico CQRS
+	- Greg Young: "A single model cannot be appropriate for reporting, searching and transactional behaviours…" 
 	- C -> Command -> Comando
 		- Orden al sistema
 		- Verbos en infinitivo (ar, er, ir)
@@ -89,9 +90,11 @@ Evolución del estilo
 	- Repositorios
 	- DAOs y DTOs
 	- Event sourcing.
+		- Documentación de Event Store (Greg Young) https://eventstore.org/docs/introduction/4.0.0/event-sourcing-basics/
 		- Descripción de Martin Fowler en 2005. https://martinfowler.com/eaaDev/EventSourcing.html
 		- Descripción de Microsoft en 2017. https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
 		- Descripción de Chris Richardson en 2017 http://microservices.io/patterns/data/event-sourcing.html
 		- Argumentación de cuándo usarlo de Vernon en 2017 https://forcomprehension.com/2017/10/30/to-event-source-or-not/
+		- Event sourcing como anti patrón. Jan Stenberg en 2016 https://www.infoq.com/news/2016/04/event-sourcing-anti-pattern
 		
 
