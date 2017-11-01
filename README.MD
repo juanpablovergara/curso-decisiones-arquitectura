@@ -78,7 +78,7 @@ Evolución del estilo
 	- Queues
 	- ACK
 - RabbitMQ
-	- Tolerancia a particiones de red
+	- Descripción de lo que pasa en RabbitMQ ante una partición de red. Aphyr en 2014: https://aphyr.com/posts/315-jepsen-rabbitmq
 
 ### Persistencia (Día 4. Sesión 1)
 
