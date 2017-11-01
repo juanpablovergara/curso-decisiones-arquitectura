@@ -1,8 +1,8 @@
-### Arquitectura vs diseño
+### Arquitectura vs diseño (Dia 1. Sesión 1) (2h)
 
 
 
-### Atributos de calidad y decisiones de arquitectura
+### Atributos de calidad y decisiones de arquitectura (Día 1. Sesión 2) (2h)
 - ISO 9126 - ISO 25000
 - Functional Suitability
 - **Performance efficiency**
@@ -16,14 +16,14 @@
 	- Disponibilidad
 	- Consistencia
 - **Security**
-	- Autentiación
+	- Autenticación
 	- Autorización
 	- Cifrado
 - Maintainability
 	- ¿Lenguaje de programación?
 - Portability
 
-### Estilos y patrones arquitectónicos
+### Estilos y patrones arquitectónicos (Día 2. Sesión 1 y 2) (4h)
 - Estilo arquitectónico REST
 - Definición: Fielding, 2000 https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm --> El paper.
 - Derivación: null. Client/Server. Stateless. Cache. Uniform Interface. Layered System. Code on Demand. 
@@ -49,7 +49,7 @@ Evolución del estilo
 		- Ejecucíón sincrónica casi siempre
 		- En algunas ocasiones ejecución asincrónica (consulta de payloads muy grandes o muy latentes -smell-)
 
-### Integración
+### Integración (Día 3. Sesión 1 y 2) (4h)
 
 - DDD Estratégico
 	- Open Host Language (OHS)
@@ -78,3 +78,19 @@ Evolución del estilo
 	- ACK
 - RabbitMQ
 	- Tolerancia a particiones de red
+
+### Persistencia (Día 4. Sesión 1)
+	- Elementos de arquitectura
+		- Transacciones. Protocolos de commit (Two phase commit)
+		- Consistencia
+		- Pool de conexiones. Análisis sobre cómo usar correctamente un pool de conexiones -> https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
+	- Elementos de diseño
+		- Repositorios
+		- DAOs y DTOs
+		- Event sourcing.
+			- Descripción de Martin Fowler en 2005. https://martinfowler.com/eaaDev/EventSourcing.html
+			- Descripción de Microsoft en 2017. https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
+			- Descripción de Chris Richardson en 2017 http://microservices.io/patterns/data/event-sourcing.html
+			- Argumentación de cuándo usarlo de Vernon en 2017 https://forcomprehension.com/2017/10/30/to-event-source-or-not/
+		
+
