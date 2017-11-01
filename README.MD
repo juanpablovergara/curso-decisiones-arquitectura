@@ -23,7 +23,7 @@
 	- ¿Lenguaje de programación?
 - Portability
 
-#### Estilos y patrones arquitectónicos
+### Estilos y patrones arquitectónicos
 - Estilo arquitectónico REST
 - Definición: Fielding, 2000 https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm --> El paper.
 - Derivación: null. Client/Server. Stateless. Cache. Uniform Interface. Layered System. Code on Demand. 
