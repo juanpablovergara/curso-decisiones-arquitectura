@@ -80,6 +80,7 @@ Evolución del estilo
 	- Tolerancia a particiones de red
 
 ### Persistencia (Día 4. Sesión 1)
+
 	- Elementos de arquitectura
 		- Transacciones. Protocolos de commit (Two phase commit)
 		- Consistencia
