@@ -47,19 +47,19 @@
 
 ### Estilos y patrones arquitectónicos (Día 2. Sesión 1 y 2) (4h)
 - Estilo arquitectónico REST
-- Definición: Fielding, 2000 https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm --> El paper.
-- Derivación: null. Client/Server. Stateless. Cache. Uniform Interface. Layered System. Code on Demand. 
-- Restricciones: Identificación de recursos. Manipulación de recursos con representaciones. Mensajes auto-descriptivos. HATEOAS.
+	- Definición: Fielding, 2000 https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm --> El paper.
+	- Derivación: null. Client/Server. Stateless. Cache. Uniform Interface. Layered System. Code on Demand. 
+	- Restricciones: Identificación de recursos. Manipulación de recursos con representaciones. Mensajes auto-descriptivos. HATEOAS.
 
-Tipos de hipermedia y sus diferentes capacidades (affordances)
-- Una cosa es el formato y otra cosa es la estructura
-- Formatos: txt, json, xml, yml
-- ¿Qué puede representarse en esos formatos? 
-- Estructuras: Collection+json, HAL, Siren+json, JSON API, 
-- ¿Cómo medir la capacidad de hypermedia? El factor H: http://amundsen.com/hypermedia/hfactor/ 
+	- Tipos de hypermedia y sus diferentes capacidades (affordances)
+		- Una cosa es el formato y otra cosa es la estructura
+		- Formatos: txt, json, xml, yml
+		- ¿Qué puede representarse en esos formatos? 
+		- Estructuras: Collection+json, HAL, Siren+json, JSON API, 
+		- ¿Cómo medir la capacidad de hypermedia? El factor H: http://amundsen.com/hypermedia/hfactor/ 
 
-Evolución del estilo
-- Fielding, 2017 https://static.googleusercontent.com/media/research.google.com/es//pubs/archive/46310.pdf --> El paper nuevo
+	- Evolución del estilo
+	- Fielding, 2017 https://static.googleusercontent.com/media/research.google.com/es//pubs/archive/46310.pdf --> El paper nuevo
 
 - Patrón arquitectónico CQRS
 	- Greg Young: "A single model cannot be appropriate for reporting, searching and transactional behaviours…" 
