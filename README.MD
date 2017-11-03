@@ -13,7 +13,7 @@
 		- Identificación / Descubrimiento / Destilamiento de lenguajes ubicuos
 		- Identificación / Descubrimiento / Destilamiento de contextos delimitados
 		- Elaboración de mapa de contextos
-		- Identificación de estrategias de integración entre contextos
+		- Identificación de estrategias de integración entre contextos (Ver sección de Integración)
 - Diseño:
 	- Pradigma de programación
 		- OOP
@@ -40,6 +40,7 @@
 	- Autenticación
 	- Autorización
 	- Cifrado
+	- Tokenización
 - Maintainability
 	- ¿Lenguaje de programación?
 - Portability
@@ -69,7 +70,7 @@ Evolución del estilo
 	- Q -> Query -> Consulta
 		- Consulta al estado del sistema
 		- Ejecucíón sincrónica casi siempre
-		- En algunas ocasiones ejecución asincrónica (consulta de payloads muy grandes o muy latentes -smell-)
+		- En algunas ocasiones ejecución asincrónica (consulta de payloads muy grandes o con altas latencias -smell-)
 
 - Patrón puertos y adaptadores
 	- Definición por Alistair Cockborn http://alistair.cockburn.us/Hexagonal+architecture
