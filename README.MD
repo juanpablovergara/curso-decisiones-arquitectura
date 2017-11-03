@@ -1,6 +1,27 @@
 ### Arquitectura vs diseño (Dia 1. Sesión 1) (2h)
-
-
+- El conjunto de habilidades de arquitectura y de diseño detallado son complementarios.
+- Arquitectura: 
+	- Qué componentes / desplegables debe tener el sistema.
+	- Cómo se deben relacionar dichos componentes.
+		- Protocolos 
+		- APIs
+		- Sincronía / Asincronía
+		- Consistencia
+		- Seguridad
+	- DDD Estratégico
+		- Identificación / Descubrimiento / Destilamiento de eventos de negocio
+		- Identificación / Descubrimiento / Destilamiento de lenguajes ubicuos
+		- Identificación / Descubrimiento / Destilamiento de contextos delimitados
+		- Elaboración de mapa de contextos
+		- Identificación de estrategias de integración entre contextos
+- Diseño:
+	- Pradigma de programación
+		- OOP
+		- FP
+	- DDD Táctico:
+		- Sustantivos del negocio: Entidades. Agregados. Objetos de valor.
+		- Comportamientos del negocio: Servicios del dominio.
+		- Interacción del dominio con el mundo exterior: Servicios de aplicación.
 
 ### Atributos de calidad y decisiones de arquitectura (Día 1. Sesión 2) (2h)
 - ISO 9126 - ISO 25000
@@ -50,6 +71,12 @@ Evolución del estilo
 		- Ejecucíón sincrónica casi siempre
 		- En algunas ocasiones ejecución asincrónica (consulta de payloads muy grandes o muy latentes -smell-)
 
+- Patrón puertos y adaptadores
+	- Definición por Alistair Cockborn http://alistair.cockburn.us/Hexagonal+architecture
+	- Referenciado por Vernon en Implementing Domain Driven Design en el capítulo de arquitectura
+	- Puerto: Procotolo (generalmente de capa 7 OSI)
+	- Adaptador: 
+
 ### Integración (Día 3. Sesión 1 y 2) (4h)
 
 - DDD Estratégico
@@ -87,8 +114,7 @@ Evolución del estilo
 	- Consistencia
 	- Pool de conexiones. Análisis sobre cómo usar correctamente un pool de conexiones -> https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
 - Elementos de diseño
-	- Repositorios
-	- DAOs y DTOs
+	- Repositorios, DAOs y DTOs
 	- Event sourcing.
 		- Documentación de Event Store (Greg Young) https://eventstore.org/docs/introduction/4.0.0/event-sourcing-basics/
 		- Descripción de Martin Fowler en 2005. https://martinfowler.com/eaaDev/EventSourcing.html
