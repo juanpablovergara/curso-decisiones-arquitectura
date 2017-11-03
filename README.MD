@@ -25,25 +25,25 @@
 
 ### Atributos de calidad y decisiones de arquitectura (Día 1. Sesión 2) (2h)
 - ISO 9126 - ISO 25000
-- Functional Suitability
-- **Performance efficiency**
-	- ¿Uso de la memoria?
-	- ¿Uso del ancho de banda?
-	- ¿Uso del procesador?
-	- Tiempos de respuesta [Latencia]
-- Compatibility
-- Usability
-- **Reliability**
-	- Disponibilidad
-	- Consistencia
-- **Security**
-	- Autenticación
-	- Autorización
-	- Cifrado
-	- Tokenización
-- Maintainability
-	- ¿Lenguaje de programación?
-- Portability
+	- Functional Suitability
+	- **Performance efficiency**
+		- ¿Uso de la memoria?
+		- ¿Uso del ancho de banda?
+		- ¿Uso del procesador?
+		- Tiempos de respuesta [Latencia]
+	- Compatibility
+	- Usability
+	- **Reliability**
+		- Disponibilidad
+		- Consistencia
+	- **Security**
+		- Autenticación
+		- Autorización
+		- Cifrado
+		- Tokenización
+	- Maintainability
+		- ¿Lenguaje de programación?
+	- Portability
 
 ### Estilos y patrones arquitectónicos (Día 2. Sesión 1 y 2) (4h)
 - Estilo arquitectónico REST
