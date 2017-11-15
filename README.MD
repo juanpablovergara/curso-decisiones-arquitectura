@@ -34,6 +34,7 @@
 	- Compatibility
 	- Usability
 	- **Reliability**
+		- Resiliencia
 		- Disponibilidad
 		- Consistencia
 	- **Security**
@@ -41,6 +42,7 @@
 		- Autorización
 		- Cifrado
 		- Tokenización
+		- Manejo de secretos
 	- Maintainability
 		- ¿Lenguaje de programación?
 	- Portability
@@ -73,7 +75,7 @@
 		- En algunas ocasiones ejecución asincrónica (consulta de payloads muy grandes o con altas latencias -smell-)
 
 - Patrón puertos y adaptadores
-	- Definición por Alistair Cockborn http://alistair.cockburn.us/Hexagonal+architecture
+	- Definición por Alistair Cockburn http://alistair.cockburn.us/Hexagonal+architecture
 	- Referenciado por Vernon en Implementing Domain Driven Design en el capítulo de arquitectura
 	- Puerto: Procotolo (generalmente de capa 7 OSI)
 	- Adaptador: 
@@ -111,6 +113,7 @@
 ### Persistencia (Día 4. Sesión 1)
 
 - Elementos de arquitectura
+	- Líder. Multilíder. Sin líder. Efectos en consistencia.
 	- Transacciones. Protocolos de commit (Two phase commit)
 	- Consistencia
 	- Pool de conexiones. Análisis sobre cómo usar correctamente un pool de conexiones -> https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
