@@ -30,13 +30,19 @@
 		- ¿Uso de la memoria?
 		- ¿Uso del ancho de banda?
 		- ¿Uso del procesador?
-		- Tiempos de respuesta [LQatencia]
+		- Tiempos de respuesta [Latencia]
 	- Compatibility
 	- Usability
 	- **Reliability**
 		- Resiliencia
 		- Disponibilidad
+			¿Número de requests atendidos con éxito?
+			¿Qué es atender con éxito? ¿Una respuesta lenta es considerada exitosa?
+			Posibles resultados a un request: malo, meehhh, ok.
+			Application Performance Index = Apdex	
+			Apdex = P(Ok) + P(meeeh) / 2
 		- Consistencia
+			Linearizabilidad y Serializabilidad: http://www.bailis.org/blog/linearizability-versus-serializability/
 	- **Security**
 		- Autenticación
 		- Autorización
