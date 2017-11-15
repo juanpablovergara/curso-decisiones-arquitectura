@@ -1,4 +1,4 @@
-### Arquitectura vs diseño (Dia 1. Sesión 1) (2h)
+### Arquitectura vs diseño (Dia 1. Sesión 1) (4h)
 - El conjunto de habilidades de arquitectura y de diseño detallado son complementarios.
 - Arquitectura: 
 	- Qué componentes / desplegables debe tener el sistema.
@@ -23,14 +23,14 @@
 		- Comportamientos del negocio: Servicios del dominio.
 		- Interacción del dominio con el mundo exterior: Servicios de aplicación.
 
-### Atributos de calidad y decisiones de arquitectura (Día 1. Sesión 2) (2h)
+### Atributos de calidad y decisiones de arquitectura (Día 2. Sesión 1) (2h)
 - ISO 9126 - ISO 25000
 	- Functional Suitability
 	- **Performance efficiency**
 		- ¿Uso de la memoria?
 		- ¿Uso del ancho de banda?
 		- ¿Uso del procesador?
-		- Tiempos de respuesta [Latencia]
+		- Tiempos de respuesta [LQatencia]
 	- Compatibility
 	- Usability
 	- **Reliability**
@@ -47,7 +47,7 @@
 		- ¿Lenguaje de programación?
 	- Portability
 
-### Estilos y patrones arquitectónicos (Día 2. Sesión 1 y 2) (4h)
+### Estilos y patrones arquitectónicos (Día 3. Sesión 2 y  Día 4. Sesión 1) (4h)
 - Estilo arquitectónico REST
 	- Definición: Fielding, 2000 https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm --> El paper.
 	- Derivación: null. Client/Server. Stateless. Cache. Uniform Interface. Layered System. Code on Demand. 
@@ -80,7 +80,7 @@
 	- Puerto: Procotolo (generalmente de capa 7 OSI)
 	- Adaptador: 
 
-### Integración (Día 3. Sesión 1 y 2) (4h)
+### Integración (Día 4. Sesión 1 y Día 5. Sesión 1) (4h)
 
 - DDD Estratégico
 	- Open Host Language (OHS)
@@ -110,7 +110,7 @@
 - RabbitMQ
 	- Descripción de lo que pasa en RabbitMQ ante una partición de red. Aphyr en 2014: https://aphyr.com/posts/315-jepsen-rabbitmq
 
-### Persistencia (Día 4. Sesión 1)
+### Persistencia (Día 5. Sesión 2) (2h)
 
 - Elementos de arquitectura
 	- Líder. Multilíder. Sin líder. Efectos en consistencia.
