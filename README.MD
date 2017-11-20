@@ -31,6 +31,7 @@
 		- ¿Uso del ancho de banda?
 		- ¿Uso del procesador?
 		- Tiempos de respuesta [Latencia]
+		- High Performance Browser Applications https://hpbn.co/
 	- Compatibility
 	- Usability
 	- **Reliability**
