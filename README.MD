@@ -53,7 +53,7 @@
 		- ¿Lenguaje de programación?
 	- Portability
 
-### Estilos y patrones arquitectónicos (Día 3. Sesión 2 y  Día 4. Sesión 1) (4h)
+### Estilos y patrones arquitectónicos (Día 2. Sesión 1 y  Día 3. Sesión 1) (4h)
 - Estilo arquitectónico REST
 	- Definición: Fielding, 2000 https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm --> El paper.
 	- Derivación: null. Client/Server. Stateless. Cache. Uniform Interface. Layered System. Code on Demand. 
@@ -86,7 +86,7 @@
 	- Puerto: Procotolo (generalmente de capa 7 OSI)
 	- Adaptador: 
 
-### Integración (Día 4. Sesión 1 y Día 5. Sesión 1) (4h)
+### Integración (Día 3. Sesión 2 y Día 4. Sesión 1) (4h)
 
 - DDD Estratégico
 	- Open Host Language (OHS)
@@ -116,7 +116,7 @@
 - RabbitMQ
 	- Descripción de lo que pasa en RabbitMQ ante una partición de red. Aphyr en 2014: https://aphyr.com/posts/315-jepsen-rabbitmq
 
-### Persistencia (Día 5. Sesión 2) (2h)
+### Persistencia (Día 4. Sesión 2) (2h)
 
 - Elementos de arquitectura
 	- Líder. Multilíder. Sin líder. Efectos en consistencia.
