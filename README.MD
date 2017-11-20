@@ -48,6 +48,8 @@
 			Apdex = P(Ok) + P(meeeh) / 2
 		- Consistencia
 			Linearizabilidad y Serializabilidad: http://www.bailis.org/blog/linearizability-versus-serializability/
+			*Linearizabilidad* single-operation, single-object, real-time order2
+			*Serializabilidad* multi-operation, multi-object, arbitrary total order
 	- **Security**
 		- Autenticación
 		- Autorización
