@@ -52,8 +52,14 @@
 			Apdex = P(Ok) + P(meeeh) / 2
 		- Consistencia
 			- Linearizabilidad y Serializabilidad: http://www.bailis.org/blog/linearizability-versus-serializability/
-			- *Linearizabilidad* single-operation, single-object, real-time order (Viene de la comunidad de sistemas distribuidos)
-			- *Serializabilidad* multi-operation, multi-object, arbitrary total order (Viene de la comunidad de base de datos)
+			- *Linearizabilidad* 
+				- single-operation, single-object, real-time order
+				- Viene de la comunidad de sistemas distribuidos
+				- Las escrituras son instantáneas. Una vez se escribe, todas las lecturas posteriores leen dicho dato.
+			- *Serializabilidad* 
+				- multi-operation, multi-object, arbitrary total order
+				- Viene de la comunidad de base de datos
+				- NO es solo el mecanismo para la C de ACID. Es el más general. Implementaciones: TPL (Two phase locking)
 	- **Security**
 		- Autenticación
 		- Autorización
