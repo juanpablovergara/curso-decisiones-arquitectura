@@ -36,6 +36,8 @@
 		- Tareas limitadas por IO / Tareas limitadas por CPU
 	- Compatibility
 	- Usability
+		- Back end for front end
+		- API Gateway
 	- **Reliability**
 		- Resiliencia
 		- ¿Cómo se comporta el sistema ante una partición de red? 
