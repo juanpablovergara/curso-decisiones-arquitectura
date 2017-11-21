@@ -61,15 +61,15 @@
 	- Portability
 
 	CAP
-	C -> Consistency (igual a Linearizability)
-	A -> Availability (every request received by a non-failing node in the system must result in a response)
-	P -> Partition tolerance
+	- C -> Consistency (igual a Linearizability)
+	- A -> Availability (every request received by a non-failing node in the system must result in a response)
+	- P -> Partition tolerance
 	
 	ACID
-	A -> Atomic
-	C -> Consistent (Correctness)
-	I -> Isolated (Serializability)
-	D -> Durable 
+	- A -> Atomic
+	- C -> Consistent (Correctness)
+	- I -> Isolated (Serializability)
+	- D -> Durable 
 
 ### Estilos y patrones arquitectónicos (Día 2. Sesión 2 y  Día 3. Sesión 1) (4h)
 - Estilo arquitectónico REST
