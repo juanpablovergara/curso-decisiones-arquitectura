@@ -51,9 +51,9 @@
 			Application Performance Index = Apdex	
 			Apdex = P(Ok) + P(meeeh) / 2
 		- Consistencia
-			Linearizabilidad y Serializabilidad: http://www.bailis.org/blog/linearizability-versus-serializability/
-			*Linearizabilidad* single-operation, single-object, real-time order2
-			*Serializabilidad* multi-operation, multi-object, arbitrary total order
+			- Linearizabilidad y Serializabilidad: http://www.bailis.org/blog/linearizability-versus-serializability/
+			- *Linearizabilidad* single-operation, single-object, real-time order (Viene de la comunidad de sistemas distribuidos)
+			- *Serializabilidad* multi-operation, multi-object, arbitrary total order (Viene de la comunidad de base de datos)
 	- **Security**
 		- Autenticación
 		- Autorización
