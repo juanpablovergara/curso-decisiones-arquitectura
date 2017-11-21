@@ -32,6 +32,8 @@
 		- ¿Uso del procesador?
 		- Tiempos de respuesta [Latencia]
 		- High Performance Browser Applications https://hpbn.co/
+		- Pools de hilos. Pools de recursos (conexiones a BD)
+		- Tareas limitadas por IO / Tareas limitadas por CPU
 	- Compatibility
 	- Usability
 	- **Reliability**
