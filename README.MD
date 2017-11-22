@@ -113,6 +113,8 @@
 	- Referenciado por Vernon en Implementing Domain Driven Design en el capítulo de arquitectura
 	- Puerto: Procotolo (generalmente de capa 7 OSI)
 	- Adaptador: 
+		- Donde suceden las transformaciones de lo que llega por el cable para ejecutar comportamientos en el dominio.
+		- Materializan los servicios de aplicación de DDD.
 
 ### Integración (Día 3. Sesión 2 y Día 4. Sesión 1) (4h)
 
